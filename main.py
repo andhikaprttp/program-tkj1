@@ -51,7 +51,7 @@ def dig():
 
 def traceroute():
     host = input("Masukkan alamat host: ")
-    result = subprocess.run(['traceroute', host], capture_output=True, text=True)
+    hasil = subprocess.run(['traceroute', host], capture_output=True, text=True)
     print(result.stdout)
 
 def ifconfig():
