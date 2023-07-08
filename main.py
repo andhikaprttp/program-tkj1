@@ -46,8 +46,8 @@ def netstat():
 
 def dig():
     domain = input("Masukkan nama domain: ")
-    result = subprocess.run(['dig', domain], capture_output=True, text=True)
-    print(result.stdout)
+    hasil = subprocess.run(['dig', domain], capture_output=True, text=True)
+    print(hasil.stdout)
 
 def traceroute():
     host = input("Masukkan alamat host: ")
