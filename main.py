@@ -16,7 +16,7 @@ def ipcalc():
     ip_address = input("Masukkan alamat IP: ")
     subnet_mask = input("Masukkan subnet mask: ")
     hasil = subprocess.run(['ipcalc', '-n', '-b', ip_address, subnet_mask], capture_output=True, text=True)
-    print(result.stdout)
+    print(hasil.stdout)
 
 def cek_port_terbuka():
     remote_host = input("Masukkan alamat host: ")
