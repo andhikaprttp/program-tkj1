@@ -29,7 +29,7 @@ def cek_port_terbuka():
 
 def whois():
     domain = input("Masukkan nama domain: ")
-    result = subprocess.run(['whois', domain], capture_output=True, text=True)
+    hasil = subprocess.run(['whois', domain], capture_output=True, text=True)
     print(result.stdout)
 
 def konfigurasi_mikrotik():
