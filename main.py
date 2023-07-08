@@ -7,7 +7,7 @@ def konversi_bilangan():
             desimal = int(input("Masukkan bilangan desimal: "))
             print("Bilangan biner:", Fore.GREEN, bin(desimal), Style.RESET_ALL)
             print("Bilangan oktal:", Fore.GREEN, oct(desimal), Style.RESET_ALL)
-            print("Bilangan heksadesimal:", Fore.GREEN, hex(decimal), Style.RESET_ALL)
+            print("Bilangan heksadesimal:", Fore.GREEN, hex(desimal), Style.RESET_ALL)
             break
         except ValueError:
             print("Input tidak valid. Silakan masukkan bilangan desimal.")
