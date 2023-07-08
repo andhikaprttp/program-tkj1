@@ -30,6 +30,6 @@ Program ini dirilis di bawah lisensi MIT. Lihat berkas [LISENSI](LICENSE) untuk 
 
 ---
 
-Selamat menggunakan Program Serba Guna! Jika Anda memiliki pertanyaan atau masalah, jangan ragu untuk menghubungi kami.
+Selamat Menggunakan 
 
 
