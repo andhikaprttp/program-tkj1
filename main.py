@@ -4,8 +4,8 @@ from colorama import Fore, Style
 def konversi_bilangan():
     while True:
         try:
-            decimal = int(input("Masukkan bilangan desimal: "))
-            print("Bilangan biner:", Fore.GREEN, bin(decimal), Style.RESET_ALL)
+            desimal = int(input("Masukkan bilangan desimal: "))
+            print("Bilangan biner:", Fore.GREEN, bin(desimal), Style.RESET_ALL)
             print("Bilangan oktal:", Fore.GREEN, oct(decimal), Style.RESET_ALL)
             print("Bilangan heksadesimal:", Fore.GREEN, hex(decimal), Style.RESET_ALL)
             break
