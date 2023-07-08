@@ -15,7 +15,7 @@ def konversi_bilangan():
 def ipcalc():
     ip_address = input("Masukkan alamat IP: ")
     subnet_mask = input("Masukkan subnet mask: ")
-    result = subprocess.run(['ipcalc', '-n', '-b', ip_address, subnet_mask], capture_output=True, text=True)
+    hasil = subprocess.run(['ipcalc', '-n', '-b', ip_address, subnet_mask], capture_output=True, text=True)
     print(result.stdout)
 
 def cek_port_terbuka():
