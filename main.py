@@ -41,8 +41,8 @@ def konfigurasi_mikrotik():
     print("5. Simpan konfigurasi dan reboot router jika diperlukan.")
 
 def netstat():
-    result = subprocess.run(['netstat', '-tuln'], capture_output=True, text=True)
-    print(result.stdout)
+    hasil = subprocess.run(['netstat', '-tuln'], capture_output=True, text=True)
+    print(hasil.stdout)
 
 def dig():
     domain = input("Masukkan nama domain: ")
