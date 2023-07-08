@@ -30,7 +30,7 @@ def cek_port_terbuka():
 def whois():
     domain = input("Masukkan nama domain: ")
     hasil = subprocess.run(['whois', domain], capture_output=True, text=True)
-    print(result.stdout)
+    print(hasil.stdout)
 
 def konfigurasi_mikrotik():
     print("Berikut adalah langkah-langkah konfigurasi MikroTik:")
